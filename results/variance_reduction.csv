@@ -1,0 +1,5 @@
+method,price,std_error,variance_ratio,seconds
+plain,3.34106,0.018608,1.00,0.071
+antithetic,3.33289,0.010961,2.88,0.106
+control variate,3.34344,0.018374,1.03,0.074
+both,3.33387,0.010015,3.45,0.100
