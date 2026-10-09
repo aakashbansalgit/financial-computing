@@ -1,5 +1,10 @@
-# financial-computing
+# cpp-option-pricing
 
+[![tests](https://github.com/aakashbansalgit/cpp-option-pricing/actions/workflows/tests.yml/badge.svg)](https://github.com/aakashbansalgit/cpp-option-pricing/actions/workflows/tests.yml)
+
+A Brownian-bridge correction prices a continuously monitored barrier option without bias at 12 time steps, where checking only on the steps is still 3.7% high at 1,000.
+
+![](figures/barrier_monitoring.png)
 Option pricing in C++17: a Monte Carlo pricer for barrier options with variance reduction and a Brownian-bridge correction, and a trinomial tree with American exercise and Richardson extrapolation. Every number below is checked against a closed form. It started as two programs for IE 523 (Financial Computing) at the University of Illinois, which are still here in `barrier-options/` and `trinomial-tree/`, and grew into the library in `lib/`.
 
 ## Barrier options by Monte Carlo

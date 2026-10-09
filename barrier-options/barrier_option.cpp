@@ -1,4 +1,5 @@
 #include "barrier_option.h"
+#include <algorithm>
 #include <cmath>
 #include <iostream>
 #include <fstream>
